@@ -1,1 +1,73 @@
 /* start your styling here  */
+/* header section */
+body {
+  background-color: rgb(46, 18, 91);
+}
+h2 {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.container {
+  width: 340px;
+  background-color: rgb(194, 82, 82);
+  height: 320px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.header .btn-1 {
+  padding: 12px;
+  width: 65px;
+  font-size: 17px;
+  background-color: rgb(227, 203, 22);
+  color: rgb(49, 49, 12);
+  border: none;
+  border-radius: 10px;
+}
+.header .btn-2 {
+  width: 220px;
+  padding: 12px;
+  background-color: rgb(46, 18, 91);
+  border: none;
+  border-radius: 10px;
+  color: azure;
+  font-size: 17px;
+  text-align: end;
+}
+
+/* button section */
+.btn {
+  padding: 12px;
+  width: 65px;
+  font-size: 17px;
+  background-color: rgb(46, 18, 91);
+  color: azure;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 5px solid rgb(21, 5, 47);
+}
+.sign-btn {
+  background-color: rgb(227, 203, 22);
+  color: rgb(49, 49, 12);
+  border-bottom: 5px solid rgb(159, 141, 6);
+}
+.equal-sign {
+  background-color: rgb(15, 188, 130);
+  border-bottom: 5px solid rgb(7, 141, 96);
+}
+.sec-1,
+.sec-2,
+.sec-3,
+.sec-4 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 0% 2%;
+  padding: 2% 0%;
+}
