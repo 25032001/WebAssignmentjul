@@ -1,12 +1,62 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .container {
+        border: 1px solid black;
+      }
+      .container div,
+      h2 {
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
-    Start coding here
+    <!-- Start coding here -->
+
+    <div class="container">
+      <h2>Personal Details</h2>
+
+      <div>
+        <label for="Salutation">Salutation</label> <br />
+        <select name="Salutation">
+          <option value="none">--None--</option>
+        </select>
+      </div>
+      <div>
+        <label for="firstname">First name:</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label for="lastname">Last name:</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label for="Gender" name="Gender">Gender:</label>
+        <input type="radio" name="Gender" />Female
+        <input type="radio" name="Gender" />Male
+        <input type="radio" name="Gender" />Other
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" />
+      </div>
+      <div>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" />
+      </div>
+      <div>
+        <label for="address">Address:</label> <br />
+        <textarea name="address" id="address" cols="30" rows="5"></textarea>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </div>
   </body>
 </html>
