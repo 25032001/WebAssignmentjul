@@ -1,1 +1,46 @@
 /* start your css here */
+body {
+    margin: 0;
+    padding: 0;
+  }
+.container {
+  width: 50%;
+  height: 800px;
+  border: 50px solid black;
+  margin: auto;
+}
+.main {
+  border: 2px solid black;
+  width: 80%;
+  height: 86%;
+  margin: 100px auto;
+  background-color: #4d0f00;
+  margin-top: 53px;
+}
+.one {
+  height: 25%;
+  background-color: #efb762;
+  width: 88%;
+  margin: auto;
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0;
+}
+.two {
+  height: 38%;
+  background-color: #8f0401;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 8px 10px;
+  box-shadow: 0 0 3px 3px #8f0401;
+}
+.three {
+  height: 28%;
+  background-color: #b20403;
+  width: 92%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 33px 25px 45px 14px;
+}
