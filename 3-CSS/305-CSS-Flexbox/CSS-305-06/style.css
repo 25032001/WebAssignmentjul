@@ -1,1 +1,147 @@
 /* start your styling here  */
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+/* Navbar Section */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -40px;
+  font-family: "Roboto", sans-serif;
+}
+nav .logo {
+  color: rgb(4, 61, 196);
+}
+nav .logo span {
+  color: white;
+  background-color: rgb(53, 98, 203);
+  padding: 3px 5px;
+}
+.icons ul {
+  display: flex;
+  list-style-type: none;
+  width: 200px;
+  margin-left: 280px;
+  padding: 01% 2%;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.icons span {
+  font-size: 25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.858);
+}
+.icons li {
+  padding: 20px;
+}
+.icons li p {
+  margin-top: -1px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.559);
+}
+.icons li a {
+  text-decoration: none;
+  text-align: center;
+}
+.icon {
+  margin-left: 15px;
+}
+.icon4 {
+  margin-left: 4px;
+}
+.btns .btn1 {
+  padding: 13px;
+  border: none;
+  background-color: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.343);
+  padding-left: 33px;
+  font-size: 17px;
+}
+.btns .btn1:hover {
+  cursor: pointer;
+  color: rgb(42, 100, 236);
+}
+.btns .btn2 {
+  padding: 13px;
+  border-radius: 25px;
+  width: 120px;
+  color: blue;
+  border: 1px solid blue;
+  background-color: white;
+  margin-left: 25px;
+  font-size: 17px;
+}
+.btns .btn2:hover {
+  background-color: rgb(42, 100, 236);
+  color: white;
+  cursor: pointer;
+}
+
+/* right section */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.right-sec {
+  width: 550px;
+  margin-left: 105px;
+}
+.right-sec .heading {
+  font-size: 55px;
+  font-weight: 100;
+  color: rgb(98, 57, 18);
+  font-family: "Tajawal", sans-serif;
+  margin-bottom: 20px;
+}
+.right-sec .input {
+  padding: 13px;
+  width: 350px;
+  font-size: 17px;
+  margin: 7px 0px;
+}
+a {
+  text-decoration: none;
+}
+.right-sec .content {
+  width: 400px;
+}
+.right-sec .btn {
+  background-color: rgb(42, 100, 236);
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 22px;
+  padding: 13px;
+  width: 385px;
+}
+.right-sec .btn:hover {
+  cursor: pointer;
+  background-color: rgb(36, 80, 216);
+}
+.right-sec .sign-in {
+  width: 400px;
+  text-align: center;
+  font-size: 17px;
+}
+.right-sec .or {
+  font-size: 20px;
+}
+.or-sec {
+  display: flex;
+}
+.or-sec .div1 {
+  border-top: 1px solid black;
+  width: 170px;
+  margin-top: 33px;
+  margin-right: 13px;
+}
+.or-sec .div2 {
+  border-top: 1px solid black;
+  width: 170px;
+  margin-top: 33px;
+  margin-left: 13px;
+}
