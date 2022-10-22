@@ -1,1 +1,26 @@
 /* start your css here */
+
+.container {
+  text-align: center;
+}
+.container .heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+.container p {
+  font-size: 18px;
+  margin: 25px 530px;
+  text-align: start;
+}
+.container .first {
+  margin-top: 36px;
+}
+.container .video {
+  margin-top: -14px;
+}
+.container .footer {
+  font-family: "Edu QLD Beginner", cursive;
+  margin-top: 67px;
+  font-size: 20px;
+}
