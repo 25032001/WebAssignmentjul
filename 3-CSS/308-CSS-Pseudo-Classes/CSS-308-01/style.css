@@ -1,1 +1,104 @@
 /* start your styling here  */
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6 {
+  display: flex;
+  align-items: center;
+  margin-bottom: -61px;
+}
+h2 {
+  font-size: 60px;
+  font-family: "Ultra", serif;
+  font-weight: 500;
+  margin-right: 16px;
+  /* padding: 1% 10px; */
+}
+.buttons .B {
+  background-color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  width: 150px;
+}
+.buttons .btn1 {
+  color: green;
+  border: 2px solid rgb(34, 169, 34);
+  background-color: white;
+}
+.buttons .btn2 {
+  color: rgb(0, 76, 255);
+  border: 2px solid rgb(51, 106, 233);
+  background-color: white;
+}
+.buttons .btn3 {
+  color: rgb(242, 150, 52);
+  border: 2px solid rgb(242, 150, 52);
+  background-color: white;
+}
+.buttons .btn4 {
+  color: red;
+  border: 2px solid red;
+  background-color: white;
+}
+.buttons .btn5 {
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.307);
+  background-color: white;
+}
+
+.section-2 .btn1 {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(17, 143, 74);
+}
+.section-3 .btn2 {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(51, 106, 233);
+}
+.section-4 .btn3 {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(242, 150, 52);
+}
+.section-5 .btn4 {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+.section-6 .btn5 {
+  cursor: pointer;
+  color: black;
+  background-color: rgba(49, 49, 49, 0.125);
+}
+
+/* section two */
+.hover-btn1:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(17, 143, 74);
+}
+.hover-btn2:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(51, 106, 233);
+}
+.hover-btn3:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(242, 150, 52);
+}
+.hover-btn4:hover {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+.hover-btn5:hover {
+  cursor: pointer;
+  color: black;
+  background-color: rgba(49, 49, 49, 0.125);
+}
