@@ -1,1 +1,78 @@
 /* start your css here */
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(https://cdn.create.vista.com/api/media/small/150129774/stock-photo-roasted-coffee-beans);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-color: rgb(243, 200, 136);
+  width: 420px;
+  margin: 100px auto;
+}
+
+/* first section */
+.first-section {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.first-section h1 {
+  margin-bottom: -7px;
+  font-family: "Teko", sans-serif;
+}
+.first-section p {
+  border-bottom: 3px solid red;
+  padding: 13px;
+}
+.first-section h2 {
+  margin-bottom: 4px;
+  font-family: "Teko", sans-serif;
+}
+
+/* second section */
+.list-section {
+  display: flex;
+  justify-content: space-between;
+}
+.list-section li {
+  list-style-type: none;
+}
+.list-2 {
+  margin-right: 30px;
+}
+
+.list-1 li,
+.list-2 li {
+  padding: 1px;
+}
+
+.fa-solid {
+  font-size: 22px;
+}
+
+/* section three */
+.title {
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+}
+.title h2 {
+  margin-bottom: 4px;
+}
+.line {
+  border-bottom: 3px solid red;
+  margin: 10px;
+}
+
+/* section four */
+.sec-4 {
+  text-align: center;
+  padding: 10px;
+}
+.sec-4 a {
+  color: black;
+  margin-bottom: -2px;
+}
