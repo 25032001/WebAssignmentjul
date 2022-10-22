@@ -1,1 +1,45 @@
 /* start your styling here  */
+
+.container {
+  background-color: black;
+  width: 410px;
+  padding: 16px;
+  border-radius: 13px;
+  height: 400px;
+}
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  padding: 18px;
+  width: 304px;
+  border-radius: 7px;
+  font-size: 17px;
+}
+/* all buttons section */
+.btn {
+  color: white;
+  background-color: rgb(109, 60, 156);
+  padding: 12px 32px;
+  width: 113px;
+  margin: 10px 2px;
+  border-radius: 7px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.fourth {
+  padding: 12px 20px;
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.C,
+.equals {
+  background-color: rgb(246, 40, 112);
+}
