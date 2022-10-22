@@ -1,1 +1,97 @@
 /* start your styling here  */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  height: 700px;
+  width: 100%;
+}
+.Box {
+  text-align: center;
+  color: white;
+}
+.blg {
+  background-image: linear-gradient(
+    to top right,
+    rgb(211, 211, 83),
+    rgb(219, 87, 87)
+  );
+}
+.Box1 {
+  grid-column: 1/2;
+}
+.Box2 {
+  background-image: linear-gradient(
+    to top right,
+    rgb(134, 92, 125),
+    rgb(243, 181, 230)
+  );
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+.Box3 {
+  background-image: linear-gradient(
+    to top left,
+    rgb(85, 124, 148),
+    rgb(0, 255, 221)
+  );
+  grid-column: 4/6;
+}
+.Box4 {
+  grid-column: 1/2;
+}
+.Box5 {
+  background-image: linear-gradient(
+    to top left,
+    rgb(85, 124, 148),
+    rgb(71, 148, 162),
+    rgb(0, 255, 221)
+  );
+  grid-column: 4/6;
+}
+.Box6 {
+  grid-column: 1/2;
+}
+.Box7 {
+  grid-column: 2/3;
+}
+.Box8 {
+  background-image: linear-gradient(
+    to top left,
+    rgb(134, 92, 125),
+    rgb(243, 181, 230)
+  );
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
+.Box9 {
+  grid-column: 4/5;
+}
+.Box10 {
+  grid-column: 4/5;
+}
+.Box11 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.Box12 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.Box13 {
+  grid-column: 5/6;
+  grid-row: 3/4;
+}
+.Box14 {
+  grid-column: 5/6;
+  grid-row: 4/5;
+}
+.fa-regular {
+  font-size: 20px;
+  padding-top: 70px;
+}
+.icon {
+  padding-top: 150px;
+}
