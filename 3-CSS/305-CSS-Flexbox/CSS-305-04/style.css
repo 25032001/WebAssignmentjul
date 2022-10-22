@@ -1,1 +1,105 @@
 /* start your styling here  */
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Navbar section */
+nav {
+  display: flex;
+  background-color: rgba(34, 34, 163, 0.878);
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .logo h1 {
+  color: white;
+  font-weight: 1000;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: -5px;
+  margin-top: 1px;
+  margin-left: 90px;
+}
+
+.content {
+  display: flex;
+  line-height: 0;
+  color: white;
+  font-weight: 700;
+  margin-left: 90px;
+}
+.content .fa-solid {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: yellow;
+}
+span {
+  color: yellow;
+}
+.input {
+  display: flex;
+}
+input {
+  width: 350px;
+}
+.input input,
+.button {
+  padding: 15px;
+  border: none;
+  background-color: white;
+}
+.fa-solid {
+  font-size: 20px;
+}
+.login {
+  padding: 20px;
+}
+.login .btn {
+  color: rgb(25, 25, 150);
+  padding: 10px;
+  width: 130px;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+}
+.list-items ul {
+  display: flex;
+  margin-right: 90px;
+}
+.list-items li {
+  list-style-type: none;
+  color: white;
+  padding: 20px;
+  font-weight: 700;
+}
+.list-items #cart {
+  margin-left: -32px;
+}
+.list-items #more-btn {
+  background-color: rgba(34, 34, 163, 0.878);
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Products section */
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.products .item p {
+  font-weight: 800;
+  margin-left: 11px;
+}
+.products .item p #id {
+  border: none;
+  font-size: 17px;
+}
+.products .item:hover {
+  cursor: pointer;
+}
