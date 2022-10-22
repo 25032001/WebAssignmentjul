@@ -1,1 +1,26 @@
 /* start your css here */
+.container {
+  display: flex;
+  background-color: rgb(2, 2, 42);
+  width: 55%;
+  font-family: "Mulish", sans-serif;
+}
+.list-items ul {
+  display: flex;
+  list-style-type: none;
+}
+.list-items li {
+  padding: 10px 22px;
+  color: rgb(143, 143, 154);
+  font-size: 18px;
+  font-weight: 700;
+}
+.icons {
+  color: rgba(255, 255, 255, 0.786);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.icons .material-symbols-outlined {
+  padding: 8px;
+}
