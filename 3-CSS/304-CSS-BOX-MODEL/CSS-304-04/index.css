@@ -2,7 +2,7 @@
 .container {
   display: flex;
   background-color: rgb(2, 2, 42);
-  width: 55%;
+  width: 60%;
   font-family: "Mulish", sans-serif;
 }
 .list-items ul {
