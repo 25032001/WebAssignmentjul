@@ -1,1 +1,10 @@
 /* start your css here */
+
+.intro,
+.skills,
+.hobbies,
+.project-1,
+.project-2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
