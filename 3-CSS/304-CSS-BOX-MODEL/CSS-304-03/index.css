@@ -1,1 +1,14 @@
 /* start your css here */
+.body {
+  font-family: "Mulish", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+.content {
+  color: rgba(0, 0, 0, 0.543);
+  margin: 10px;
+}
+.content p {
+  margin-bottom: -11px;
+  font-weight: 700;
+}
