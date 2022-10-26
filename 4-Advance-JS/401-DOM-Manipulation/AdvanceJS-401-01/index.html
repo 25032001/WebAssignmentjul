@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        margin-top: 300px;
+      }
+      #input {
+        padding: 10px;
+        border: 2px solid aquamarine;
+        font-size: 20px;
+      }
+      #output {
+        font-size: 20px;
+      }
+    </style>
   </head>
   <body>
-    Start your code here
+    <input type="text" id="input" placeholder="Enter here" />
+    <p id="output"></p>
+
+    <script>
+      const inputref = (e) => {
+        const text = document.getElementById("output");
+        const value = e.target.value;
+        text.innerHTML = value;
+      };
+      document.getElementById("input").addEventListener("input", inputref);
+    </script>
   </body>
 </html>
