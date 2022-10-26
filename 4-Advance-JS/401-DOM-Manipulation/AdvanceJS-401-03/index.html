@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
   </head>
   <body>
-    Start your code here
+    <div class="container">
+      <div class="slide">
+        <img
+          src="https://blog.geekster.in/wp-content/uploads/2021/09/Most-popular-full-stack-featured-image.png"
+          alt="img-1"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://blog.geekster.in/wp-content/uploads/2022/06/React-projects-featured-image.png"
+          alt="img-2"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="https://blog.geekster.in/wp-content/uploads/2021/11/top-6-awesome-t-Jobs-in-Demand-2022-featured-Image.png"
+          alt="img-3"
+        />
+      </div>
+    </div>
+    <span class="arrow next" onclick="controller(1)">
+      <i class="fa-solid fa-caret-right"></i>
+    </span>
+    <span class="arrow previous" onclick="controller(-1)">
+      <i class="fa-solid fa-caret-left"></i>
+    </span>
+
+    <script>
+      let slideImg = 1;
+      function controller(x) {
+        slideImg += x;
+        slider(slideImg);
+      }
+      slider(slideImg);
+      function slider(num) {
+        let images = document.getElementsByClassName("slide");
+        if (num == images.length) {
+          num = 0;
+          slideImg = 0;
+        }
+        if (num == -1) {
+          num = images.length - 1;
+          slideImg = images.length - 1;
+        }
+        for (let img of images) {
+          img.style.display = "none";
+        }
+        images[num].style.display = "block";
+      }
+    </script>
   </body>
 </html>

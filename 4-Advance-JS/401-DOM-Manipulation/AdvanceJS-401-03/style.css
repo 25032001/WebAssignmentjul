@@ -1,0 +1,34 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  position: relative;
+  border: 2px solid;
+  width: 950px;
+  margin: 100px auto;
+}
+.slide > img {
+  width: 950px;
+  height: 550px;
+}
+.slide {
+  width: 950px;
+}
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  top: 45%;
+  padding: 8px;
+  font-size: 55px;
+  color: white;
+}
+.next {
+  right: 280px;
+}
+.previous {
+  left: 280px;
+}
+.slide {
+  display: none;
+}
