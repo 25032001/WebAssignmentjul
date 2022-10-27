@@ -1,1 +1,124 @@
 /* start your styling here  */
+body {
+  background-color: #fffdf8;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px 309px;
+}
+.nav button {
+  height: 30px;
+  padding: 1px 20px;
+}
+.nav-img {
+  width: 100px;
+  margin: -17px -1px;
+}
+.grid-items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  margin: 6px 260px;
+}
+.item1 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.item1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item2 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+
+.item2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item3 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-row: 1/3;
+  grid-column: 5/7;
+}
+.item3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.item4 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-row: 1/3;
+  grid-column: 7/10;
+}
+.item4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.item5 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+.item5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item6 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.item6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item7 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-column: 1/4;
+  grid-row: 3/5;
+}
+.item7 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item8 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-column: 4/8;
+  grid-row: 3/5;
+}
+.item8 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item9 {
+  border: 2px solid rgb(0, 0, 0);
+  grid-column: 8/10;
+  grid-row: 3/5;
+}
+.item9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.navbar-bottom {
+  margin: -748px 250px;
+}
+.navbar-bottom a {
+  color: black;
+}
+.nav-item-last {
+  margin-left: 370px;
+}
