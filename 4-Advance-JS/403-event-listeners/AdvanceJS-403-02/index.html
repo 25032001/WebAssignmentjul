@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(30, 30, 52);
+        color: white;
+      }
+      .heading {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5px;
+      }
+      button {
+        height: 9rem;
+        width: 9rem;
+      }
+      .drum-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+      }
+      .drum {
+        margin: 15px;
+        border: 10px solid rgba(30, 30, 52, 0.655);
+        border-radius: 10px;
+        font-size: 76px;
+        color: rgb(213, 0, 64);
+        font-weight: 700;
+      }
+     
+      .w{
+        background-image: url(bgImages/crash.png);
+      }
+      .j{
+        background-image: url(bgImages/kick.png);
+      }
+      .l{
+        background-image: url(bgImages/snare.png);
+      }
+      .d{
+        background-image: url(bgImages/tom1.png);
+      }
+      .a{
+        background-image: url(bgImages/tom2.png);
+      }
+      .k{
+        background-image: url(bgImages/tom3.png);
+      }
+      .s{
+        background-image: url(bgImages/tom4.png);
+      }
+    </style>
   </head>
   <body>
-    Start your code here
+    <div class="heading">
+      <h1>Drum 🥁 Kit</h1>
+    </div>
+    <div class="drum-container">
+      <button class="w drum">w</button>
+      <button class="a drum">a</button>
+      <button class="s drum">s</button>
+      <button class="d drum">d</button>
+      <button class="j drum">j</button>
+      <button class="k drum">k</button>
+      <button class="l drum">l</button>
+    </div>
+
+    <script src="403-02.js"></script>
   </body>
 </html>
