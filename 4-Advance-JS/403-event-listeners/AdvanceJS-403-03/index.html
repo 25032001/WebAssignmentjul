@@ -5,8 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Start your code here
+    <!-- Start your code here -->
+    <div class="container">
+      <div id="calculator">
+        <h1> Charles' Tip Calculator</h1>
+
+        <form>
+          <p>How much was your Bill?</p>
+          <p>
+            $ <input id="billamt" type="text" placeholder="Enter Bill Amount" />
+          </p>
+          <p>How was service?</p>
+          <select id="service">
+            <option selected disabled value="0">Select level of Service</option>
+            <option value="0.4">30% - Outstanding</option>
+            <option value="0.3">20% - Good</option>
+            <option value="0.2">15% - It was Okay</option>
+            <option value="0.1">10% - Bad</option>
+            <option value="0.05">5% - Terrible</option>
+          </select>
+
+          <p>How many people Sharing the Bill?</p>
+          <p>
+            <input
+              id="peopleamt"
+              type="text"
+              placeholder="Enter number of people"
+            />People
+          </p>
+        </form>
+        <button type="button" id="btnClick">Calculate</button>
+      </div>
+
+      <div id="totaltip">
+        <p>TIP AMOUNT</p>
+        <sup>$</sup><span id="tip">0.00</span>
+        <small id="each">each</small>
+
+      </div>
+    </div>
+
+    <script>
+      function Calculate() {
+        var billamt = document.getElementById("billamt").value;
+        var serviceamt = document.getElementById("service").value;
+        var peopleamt = document.getElementById("peopleamt").value;
+
+        if ((billamt === "") | (serviceamt === 0)) {
+          alert("Please enter Value");
+          return;
+        }
+
+        if (peopleamt === "" || peopleamt <= 0) {
+          peopleamt = 1;
+
+          document.getElementById("each").style.display = "none";
+        } else {
+          document.getElementById("each").style.display = "block";
+        }
+        var total = (billamt * serviceamt)/peopleamt;
+
+        total = Math.round(total * 100)/100;
+
+        total = total.toFixed(2);
+
+        document.getElementById("totaltip").style.display="block";
+        
+        document.getElementById("tip").innerHTML=total;
+
+      }
+
+      
+      document.getElementById("totaltip").style.display="none";
+      
+      document.getElementById("each").style.display="none";
+      
+      document.getElementById("btnClick").onclick=function(){
+        Calculate();
+      }
+    </script>
   </body>
 </html>
