@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="405-01.css">
     <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="coutries">
+        <h1>
+            World Coutries Data
+        </h1>
+        <p>
+            Currently,we have 250 coutries
+        </p>
+    </header>
+     <main>
+        <div class="wrapper">
+            <div class="graph-buttons">
+                <button class="population" onclick="showpop()">
+                 POPOLATION
+                </button>
+                <button class="languages" onclick="showlang()">LANGUAGES</button>
+            </div>
+            <h4 class="graph-title"></h4>
+            <div class="graph">
+             <div class="graph-wrapper" id="stat"></div>
+            </div>
+        </div>
+     </main>
+     <table id="tableid">
+     
+     </table>
+     <table id="populationtable">
+        <tr>
+            <td>
+                world Population
+            </td>
+            <td>
+                <div class="tablediv" style='width:100%'></div>
+            </td>
+            <td>
+                7693165599
+            </td>
+        </tr>
+        
+     </table>
+    <script src="countries_data.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
+
