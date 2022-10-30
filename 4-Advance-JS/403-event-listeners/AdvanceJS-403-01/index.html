@@ -4,9 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    Start your code here
+    <div class="container">
+      <input
+        type="you pressed"
+        placeholder="Press any key here"
+        id="input"
+        class="keyboard"
+      /><br /><br />
+      <div id="keycode">
+        <p id="text">keycode</p>
+        <p id="ans"></p>
+      </div>
+      <div id="keyboard">
+        <p id="key-pressed">Key Pressed</p>
+        <p id="key-text"></p>
+      </div>
+    </div>
+    <script>
+      const keyBoard = document.querySelector(".keyboard");
+      keyBoard.addEventListener("keyup", (e) => {
+        let key = document.getElementById("key-text");
+        let ans = document.getElementById("ans");
+        ans.innerHTML = e.keyCode;
+        key.innerHTML = e.key;
+        var inputRef = document.getElementById("input");
+        inputRef.value = "";
+      });
+    </script>
   </body>
 </html>
