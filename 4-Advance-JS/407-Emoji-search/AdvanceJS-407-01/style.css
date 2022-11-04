@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    background-image: url(https://t3.ftcdn.net/jpg/01/63/24/24/360_F_163242410_85lEeYR0m7yKmr1t5lLcow74I0Sd4j42.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+  }
+  .container h1,
+  #search-bar {
+    text-align: center;
+  }
+  .container hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #search-bar input {
+    padding: 8px;
+    width: 400px;
+    font-size: 16px;
+  }
+  #emoji-table {
+    margin: 50px auto;
+    margin-left: 470px;
+  }
+  .submitbtn {
+    width: 100px !important;
+  }
+  .submitbtn:hover {
+    background-color: rgb(108, 171, 231);
+    color: white;
+    width: 100px !important;
+    cursor: pointer;
+  }
+  

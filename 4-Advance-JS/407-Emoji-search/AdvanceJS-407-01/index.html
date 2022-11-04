@@ -4,9 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Emojee - Emoji 🔍 Application</title>
   </head>
   <body>
-    Start your code here
+    <div class="container">
+      <h1>Emojee - Emoji 🔍 Application</h1>
+      <hr />
+      <form id="search-bar">
+        <input type="text" placeholder="Emoji search" id="search-field" />
+        <input type="submit" value="Search" class="submitbtn" />
+      </form>
+
+      <table id="emoji-table"></table>
+    </div>
+    <script src="emojiList.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
