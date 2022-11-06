@@ -1,0 +1,44 @@
+#Profile {
+  display: flex;
+  margin: 30px;
+}
+.img img {
+  width: 120px;
+  border-radius: 50%;
+}
+.link-name {
+  margin: 10px;
+}
+h5 {
+  margin: 10px 120px;
+  font-size: xx-large;
+}
+form {
+  margin: 1px 120px;
+}
+input {
+  width: 320px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  border: 2px solid black;
+  outline: none;
+  border: 2px solid #5974cf;
+}
+input#search {
+  font-size: 20px;
+}
+button#submit {
+  margin: 0px 1px;
+  padding: 7px 1px;
+  font-size: large;
+  background-color: rgb(81, 138, 212);
+  color: white;
+  border: 2px solid white;
+  border: none;
+}
+button {
+  width: 100px;
+  height: 39px;
+}
