@@ -5,8 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/7dbc7206c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
+  <style></style>
   <body>
-    Start your code here
+    <div class="container">
+      <div class="center">
+        <h1 class="h1">WORLD COUNTRIES LIST</h1>
+        <h3 class="h3">Total numbers of countries:193</h3>
+        <h2 class="h">Country Start with => <span id="h2"></span></h2>
+
+        <div class="btn">
+          <button
+            type="button"
+            class="btn btn-lg"
+            onclick="searchWithStartingWord()"
+          >
+            SRATING WORD
+          </button>
+          <button
+            type="button"
+            class="btn btn-lg"
+            onclick="searchWithAnyWord()"
+          >
+            SEARCH WITH ANY WORD
+          </button>
+          <button type="button" class="btn btn-ls">
+            <i class="fa-solid fa-down-long">A-Z</i>
+          </button>
+        </div>
+        <br /><br />
+        <form action="" id="search-form">
+          <input
+            type="text"
+            id="search-field"
+            placeholder="Search country..."
+          /><i
+            style="width: 40px; filter: invert(1)"
+            class="fa-solid fa-magnifying-glass"
+          ></i>
+        </form>
+      </div>
+    </div>
+    <table id="table" rules="all"></table>
+
+    <script src="script.js"></script>
+    <script src="countries.js"></script>
   </body>
 </html>

@@ -1,0 +1,71 @@
+div.container {
+    width: 100%;
+    height: 400px;
+    padding: 250px 82px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgb7IhTC88xUJi1Z7ST95tuL_zKjkuRxGDg&usqp=CAU");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.btn .btn {
+    padding: 7px 17px;
+    background-color: #7951cf;
+    color: white;
+}
+
+.btn .btn:hover {
+    padding: 7px 17px;
+    background-color: #5e20e3;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    margin: -100px auto;
+    background-color: black;
+    opacity: 0.8;
+    height: 270px;
+
+}
+
+h1.h1 {
+    font-size: 40px;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    color: white;
+}
+
+h3.h3 {
+    color: white;
+}
+
+#table {
+    margin: 10px 200px;
+    color: black;
+    font-weight: 900;
+}
+
+#h2 {
+    font-size: 20px;
+    color: crimson;
+    color-interpolation-filters: linearRGB;
+}
+
+.h {
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}

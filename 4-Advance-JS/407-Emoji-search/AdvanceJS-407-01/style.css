@@ -8,7 +8,9 @@ body {
   .container h1,
   #search-bar {
     text-align: center;
+  
   }
+
   .container hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -20,7 +22,9 @@ body {
   }
   #emoji-table {
     margin: 50px auto;
-    margin-left: 470px;
+    margin-left: 300px;
+    margin-top: 100px;
+  
   }
   .submitbtn {
     width: 100px !important;

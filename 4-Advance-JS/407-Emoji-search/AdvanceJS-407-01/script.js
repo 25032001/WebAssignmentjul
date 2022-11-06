@@ -21,6 +21,9 @@ const searchhere = (e) => {
       new_emoji.innerHTML = e.emoji;
       new_aliases.innerHTML = e.aliases.join(",");
       new_desc.innerHTML = e.description;
+
+      var element = document.getElementById("emoji-table");
+      element.style.fontSize = "30px";
   
       new_row.appendChild(new_emoji);
       new_row.appendChild(new_aliases);
