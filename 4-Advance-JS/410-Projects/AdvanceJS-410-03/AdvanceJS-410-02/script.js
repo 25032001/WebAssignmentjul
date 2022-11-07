@@ -1,4 +1,4 @@
-const form=document.querySelector("form");
+const formref=document.querySelector("form");
 const search=document.getElementById("search");
 const img=document.getElementById("img")
 
@@ -11,12 +11,12 @@ const getName=async (data)=>{
 
 const showData= async(newData)=>{
    img.innerHTML=` <div id="img">
-   <img src="${newData.meals[0].strMealThumb}" alt="img" width="250px">
+   <img src="${newData.meals[0].strMealThumb}" alt="YourResultImg" width="330px">
  </div>`
  search.value=""
 }
 
-form.addEventListener("submit",function(event){
+formref.addEventListener("submit",function(event){
     var data=search.value;
     console.log(data);
     event.preventDefault()
