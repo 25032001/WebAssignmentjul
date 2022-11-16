@@ -1,0 +1,26 @@
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: rgb(22, 2, 40);
+}
+h2{
+    color: white;
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.container{
+    text-align: center;
+}
+#searchBar{
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(149 132 218);
+    color:rgb(251, 251, 254);
+    font-size: 17px;
+}
+body img{
+    margin-top: 50px;
+}
